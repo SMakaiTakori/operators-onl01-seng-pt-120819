@@ -1,5 +1,5 @@
 def unsafe?(speed)
-  if speed == <40
+  if speed == (40 < 60)
     puts "You're going too slow."
   else speed == >60  
     puts "SLOW DOWN!"
